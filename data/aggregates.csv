@@ -1,0 +1,33 @@
+section,group,metric,value,unit,note
+reviewers,all,total,400,count,Validation cases.
+reviewers,all,exact_agreement,331,count,"Exact agreement across grade A, grade B, invalid and unresolved before third adjudication."
+reviewers,all,collapsed_agreement,367,count,Agreement after combining grade A and grade B against invalid and unresolved.
+reviewers,all,third_adjudication,69,count,Cases entering third adjudication.
+conference_papers,all,source_labelled,38,count,Source-labeled conference papers in the audited sample.
+conference_papers,all,excluded_by_type,38,count,Source-labeled conference papers excluded by the historical type rule.
+conference_papers,all,eligible,34,count,Adjudicated eligible under the declared portfolio definition.
+broad_domain,Unassigned source domain,n,1,count,Source-assigned broad-domain aggregate.
+broad_domain,Unassigned source domain,eligible,0,count,Source-assigned broad-domain aggregate.
+broad_domain,Unassigned source domain,accepted,1,count,Source-assigned broad-domain aggregate.
+broad_domain,Unassigned source domain,true_positive,0,count,Source-assigned broad-domain aggregate.
+broad_domain,Health Sciences,n,72,count,Source-assigned broad-domain aggregate.
+broad_domain,Health Sciences,eligible,55,count,Source-assigned broad-domain aggregate.
+broad_domain,Health Sciences,accepted,55,count,Source-assigned broad-domain aggregate.
+broad_domain,Health Sciences,true_positive,46,count,Source-assigned broad-domain aggregate.
+broad_domain,Life Sciences,n,55,count,Source-assigned broad-domain aggregate.
+broad_domain,Life Sciences,eligible,41,count,Source-assigned broad-domain aggregate.
+broad_domain,Life Sciences,accepted,44,count,Source-assigned broad-domain aggregate.
+broad_domain,Life Sciences,true_positive,36,count,Source-assigned broad-domain aggregate.
+broad_domain,Physical Sciences,n,153,count,Source-assigned broad-domain aggregate.
+broad_domain,Physical Sciences,eligible,133,count,Source-assigned broad-domain aggregate.
+broad_domain,Physical Sciences,accepted,109,count,Source-assigned broad-domain aggregate.
+broad_domain,Physical Sciences,true_positive,96,count,Source-assigned broad-domain aggregate.
+broad_domain,Social Sciences,n,119,count,Source-assigned broad-domain aggregate.
+broad_domain,Social Sciences,eligible,93,count,Source-assigned broad-domain aggregate.
+broad_domain,Social Sciences,accepted,97,count,Source-assigned broad-domain aggregate.
+broad_domain,Social Sciences,true_positive,79,count,Source-assigned broad-domain aggregate.
+cluster_resampling,all,replicates,20000,count,Institution-cluster resampling within five scale strata.
+cluster_resampling,accepted_precision,lower,0.7988,proportion,Empirical 2.5th percentile.
+cluster_resampling,accepted_precision,upper,0.878,proportion,Empirical 97.5th percentile.
+cluster_resampling,eligible_retention,lower,0.7384,proportion,Empirical 2.5th percentile.
+cluster_resampling,eligible_retention,upper,0.8532,proportion,Empirical 97.5th percentile.

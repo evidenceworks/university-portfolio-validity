@@ -1,0 +1,9 @@
+Licenses
+
+Original software in `code/` is licensed under the MIT License. The full text is in `licenses/MIT.txt`.
+
+Repository-authored documentation, study annotations and derived analytical outputs for which the authors hold the relevant rights are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). The full text is in `licenses/CC-BY-4.0.txt`.
+
+External identifiers, metadata fields and source locators are retained for research traceability and are not relicensed by this repository. Material reached through external links remains subject to the rights, licenses and terms of its original provider or rightsholder.
+
+See `licenses/third-party.md` for the treatment of external source material.

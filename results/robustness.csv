@@ -1,0 +1,17 @@
+analysis,group,n,eligible,accepted,true_positive,accepted_precision,eligible_retention,lower,upper,replicates,note
+scale_quintile,1,80,56,61,48,0.78688525,0.85714286,,,,Descriptive within the fixed 50-university study frame.
+scale_quintile,2,80,67,53,49,0.9245283,0.73134328,,,,Descriptive within the fixed 50-university study frame.
+scale_quintile,3,80,67,64,53,0.828125,0.79104478,,,,Descriptive within the fixed 50-university study frame.
+scale_quintile,4,80,67,66,57,0.86363636,0.85074627,,,,Descriptive within the fixed 50-university study frame.
+scale_quintile,5,80,65,62,50,0.80645161,0.76923077,,,,Descriptive within the fixed 50-university study frame.
+broad_domain,Unassigned source domain,1,0,1,0,0,,,,,Domain aggregate from the included inputs; case-level domain labels are not included.
+broad_domain,Health Sciences,72,55,55,46,0.83636364,0.83636364,,,,Domain aggregate from the included inputs; case-level domain labels are not included.
+broad_domain,Life Sciences,55,41,44,36,0.81818182,0.87804878,,,,Domain aggregate from the included inputs; case-level domain labels are not included.
+broad_domain,Physical Sciences,153,133,109,96,0.88073394,0.72180451,,,,Domain aggregate from the included inputs; case-level domain labels are not included.
+broad_domain,Social Sciences,119,93,97,79,0.81443299,0.84946237,,,,Domain aggregate from the included inputs; case-level domain labels are not included.
+leave_one_institution_out,accepted_precision,,,,,,,0.83557047,0.84949833,,Descriptive influence range.
+leave_one_institution_out,eligible_retention,,,,,,,0.79299363,0.81210191,,Descriptive influence range.
+grade_b_sensitivity,accepted_precision,,,,,,,0.38888889,0.83986928,,Logical bounds with grade A and invalid classifications held fixed.
+grade_b_sensitivity,eligible_retention,,,,,,,0.64673913,0.90175439,,Logical bounds with grade A and invalid classifications held fixed.
+cluster_resampling,accepted_precision,,,,,,,0.7988,0.878,20000,Percentile range from the included aggregate inputs.
+cluster_resampling,eligible_retention,,,,,,,0.7384,0.8532,20000,Percentile range from the included aggregate inputs.

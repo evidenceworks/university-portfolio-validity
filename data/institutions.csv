@@ -1,0 +1,51 @@
+institution_id,institution_name,scale_quintile,candidate_count,selected_count
+https://openalex.org/I152479009,Biola University,1,384,8
+https://openalex.org/I35778689,California Institute of Integral Studies,1,250,8
+https://openalex.org/I67789559,Liberty University,1,978,8
+https://openalex.org/I910567637,St. John Fisher University,1,1128,8
+https://openalex.org/I150913223,Texas Woman's University,1,1793,8
+https://openalex.org/I19250435,Trinity International University,1,59,8
+https://openalex.org/I708430,University of La Verne,1,504,8
+https://openalex.org/I276309446,University of the Cumberlands,1,102,8
+https://openalex.org/I119942576,University of the Pacific,1,2096,8
+https://openalex.org/I80046288,Walden University,1,1367,8
+https://openalex.org/I198089087,Ball State University,2,3939,8
+https://openalex.org/I106959904,Florida Institute of Technology,2,4658,8
+https://openalex.org/I35777872,North Carolina Agricultural and Technical State University,2,3456,8
+https://openalex.org/I203088144,Nova Southeastern University,2,6033,8
+https://openalex.org/I126863827,Pace University,2,2921,8
+https://openalex.org/I71838634,San Francisco State University,2,5769,8
+https://openalex.org/I63920570,Tennessee Technological University,2,2393,8
+https://openalex.org/I96749437,Texas A&M University – Corpus Christi,2,2120,8
+https://openalex.org/I79516672,University of Louisiana at Lafayette,2,4361,8
+https://openalex.org/I122266389,University of Nebraska at Omaha,2,5070,8
+https://openalex.org/I181401687,American University,3,7792,8
+https://openalex.org/I20382870,Missouri University of Science and Technology,3,10231,8
+https://openalex.org/I23732399,Montana State University,3,9016,8
+https://openalex.org/I126345244,Portland State University,3,9682,8
+https://openalex.org/I110378019,Southern Illinois University Carbondale,3,9206,8
+https://openalex.org/I110152177,University of Akron,3,11832,8
+https://openalex.org/I141472210,University of Alaska Fairbanks,3,8596,8
+https://openalex.org/I7947594,University of Maine,3,7022,8
+https://openalex.org/I133738476,University of Massachusetts Lowell,3,6308,8
+https://openalex.org/I6750721,University of Montana,3,10919,8
+https://openalex.org/I100005738,Brigham Young University,4,20041,8
+https://openalex.org/I72816309,Drexel University,4,22490,8
+https://openalex.org/I103163165,Florida State University,4,28829,8
+https://openalex.org/I149910238,Kent State University,4,12770,8
+https://openalex.org/I12912129,Northeastern University,4,24001,8
+https://openalex.org/I115475287,Oklahoma State University,4,13801,8
+https://openalex.org/I17301866,University of Alabama,4,17028,8
+https://openalex.org/I169521973,University of New Mexico,4,26506,8
+https://openalex.org/I123534392,University of North Texas,4,15607,8
+https://openalex.org/I155781252,University of South Carolina,4,26049,8
+https://openalex.org/I58956616,Case Western Reserve University,5,40964,8
+https://openalex.org/I150468666,Emory University,5,54739,8
+https://openalex.org/I136199984,Harvard University,5,173021,8
+https://openalex.org/I173911158,Iowa State University,5,39877,8
+https://openalex.org/I52357470,The Ohio State University,5,90583,8
+https://openalex.org/I63190737,"University at Buffalo, State University of New York",5,33120,8
+https://openalex.org/I138006243,University of Arizona,5,62883,8
+https://openalex.org/I36258959,University of California San Diego,5,84385,8
+https://openalex.org/I114027177,University of North Carolina at Chapel Hill,5,67866,8
+https://openalex.org/I223532165,University of Utah,5,50649,8
