@@ -1,9 +1,25 @@
-Licenses
+Code and authored material
 
-Original software in `code/` is licensed under the MIT License. The full text is in `licenses/MIT.txt`.
+Original code is licensed under the MIT License; see licenses/MIT.txt.
+Repository-authored documentation, annotations and analytical results are licensed
+under Creative Commons Attribution 4.0; see licenses/CC-BY-4.0.txt.
 
-Repository-authored documentation, study annotations and derived analytical outputs for which the authors hold the relevant rights are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). The full text is in `licenses/CC-BY-4.0.txt`.
+Third-party sources
 
-External identifiers, metadata fields and source locators are retained for research traceability and are not relicensed by this repository. Material reached through external links remains subject to the rights, licenses and terms of its original provider or rightsholder.
+OpenAlex factual metadata are available under CC0:
+https://openalex.org/transparency
 
-See `licenses/third-party.md` for the treatment of external source material.
+Crossref factual bibliographic metadata are retained without publication abstracts:
+https://www.crossref.org/documentation/retrieve-metadata/
+
+The CWTS Leiden scope extract identifies CC0 in its source record:
+https://doi.org/10.5281/zenodo.23598555
+
+The HERD linkage contains factual entries from NCSES:
+https://ncsesdata.nsf.gov/herd/2015/html/HERD2015_DST_17.html
+
+Source URLs and hashes identify the records supporting the retained facts.
+Original source material remains subject to its provider's rights. The repository
+includes neither full publication texts nor publisher HTML and does not relicense
+third-party works. Bibliographic titles, identifiers and factual source fields
+remain attributable to their original providers.

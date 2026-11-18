@@ -1,0 +1,114 @@
+{
+  "version": "C09_V2_FINAL_2026-09-16",
+  "scientific_cohort": {
+    "start_year": 2005,
+    "end_year": 2015
+  },
+  "included_source_types": [
+    "article",
+    "preprint",
+    "proceedings-article",
+    "book-chapter"
+  ],
+  "source_type_mapping": {},
+  "independent_research_type_aliases": [
+    "working-paper",
+    "research-article",
+    "review-article",
+    "conference-paper"
+  ],
+  "explicit_nonresearch_types": [
+    "editorial",
+    "erratum",
+    "correction",
+    "letter",
+    "dataset",
+    "grant",
+    "posted-content-nonscholarly",
+    "syllabus",
+    "course-outline",
+    "teaching-material",
+    "administrative-item",
+    "book-review",
+    "commentary"
+  ],
+  "explicit_nonresearch_roles": [
+    "book_review",
+    "editorial",
+    "editors_note",
+    "erratum",
+    "correction",
+    "commentary_on_another_work",
+    "course_syllabus",
+    "course_outline",
+    "teaching_material",
+    "administrative_item",
+    "special_issue_introduction",
+    "award_issue_introduction"
+  ],
+  "anchored_nonresearch_title_patterns": [
+    "^editor['’]?s note\\b",
+    "^erratum\\b",
+    "^corrigendum\\b",
+    "^correction\\b",
+    "^commentary\\b",
+    "^book review\\b",
+    "^review:\\s",
+    "\\bcourse syllabus\\b",
+    "\\bcourse outline\\b"
+  ],
+  "review_rule": "A bare source type review lies outside the archived included-source mapping. An explicit external research-review type may support eligibility; anchored nonresearch patterns or explicit excluded roles take priority.",
+  "date_precedence": [
+    "publisher_published",
+    "publisher_original_version",
+    "crossref_published_online",
+    "crossref_published_print",
+    "crossref_issued",
+    "medline_publication",
+    "pubmed_publication",
+    "repository_original_version",
+    "ssrn_posted",
+    "openalex_source"
+  ],
+  "disallowed_date_fallbacks": [
+    "crossref_created",
+    "crossref_deposited",
+    "crossref_indexed",
+    "crawler_timestamp",
+    "repository_upload",
+    "webpage_modified"
+  ],
+  "date_conflict_rule": "Publication date sources follow date_precedence. Conflicting years within the highest available source kind are unresolved; differing years across source kinds are resolved by precedence in the archived implementation. Generated timestamps are excluded.",
+  "author_role_noncurrent_patterns": [
+    "\\bgraduate of\\b",
+    "\\bgraduated from\\b",
+    "\\breceived (?:his|her|their|a|an)?\\s*(?:b\\.?s\\.?|m\\.?s\\.?|ph\\.?d\\.?|degree)\\b",
+    "\\beducation biography\\b",
+    "\\bbiograph(?:y|ical)\\b",
+    "\\beditor\\b",
+    "\\breviewer\\b",
+    "\\breviewed by\\b",
+    "\\bcommunicated by\\b"
+  ],
+  "punctuation_rule": "Unicode/case/harmless punctuation are normalized. Trailing comma/semicolon alone is harmless. A dangling and/& may remain unresolved. Distinguishing campus/place tokens are never stripped.",
+  "affiliation_rule": "Inspect all author-level raw affiliation strings plus publication-specific structured author affiliations. Exact active focal/historical aliases and evidenced subunit aliases may support. Longer excluded entities block substring matches. Foreign coauthors do not veto a separate clean focal affiliation.",
+  "ambiguity_rule": "No usable raw affiliation, unresolved historical entity, or unresolved role/date contradiction -> UNRESOLVED. EXCLUDED requires positive evidence of ineligibility/nonmembership.",
+  "statuses": [
+    "SUPPORTED",
+    "EXCLUDED",
+    "UNRESOLVED"
+  ],
+  "confidence_levels": [
+    "HIGH",
+    "MEDIUM",
+    "SOURCE_ONLY",
+    "LOW",
+    "NONE"
+  ],
+  "outcome_firewall": [
+    "No patent/RCCR outcome information is an input to this resolver.",
+    "No work-ID exception may appear in production rules.",
+    "Current ROR relationship alone is never positive historical evidence.",
+    "Whole-document institution-name hits are ignored unless tied to author-level publication-specific structure."
+  ]
+}
