@@ -18,7 +18,8 @@ def manifest():
                                  or name in {'reproduce.py', 'requirements.txt'}}
     assert listed == numerical_inputs_and_code, ('Unlisted or missing scientific files', listed ^ numerical_inputs_and_code)
     reference_files = {'.gitattributes', 'LICENSE', 'README.md', 'checksums.sha256',
-                       'licenses/CC-BY-4.0.txt', 'licenses/MIT.txt'}
+                       'licenses/CC-BY-4.0.txt', 'licenses/MIT.txt',
+                       'notebooks/reproduce.ipynb'}
     assert files == numerical_inputs_and_code | reference_files, ('Unexpected repository files', files ^ (numerical_inputs_and_code | reference_files))
     return len(listed)
 
